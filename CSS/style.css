@@ -18,15 +18,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Homepage - Navigation */
-.Navigation {
-    background-color: #b965c2;
-    color: white;
-    margin: 0px auto;
-    padding: 0;
-    width: 100%;
-    height: auto;
-}
 
 /* Homepage - Navigation */
 .Navigation {
@@ -42,10 +33,10 @@ body {
 .nav-list {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; /* allows wrapping on small screens */
+    flex-wrap: wrap; 
     justify-content: center;
     align-items: center;
-    gap: 2em; /* scalable spacing */
+    gap: 2em; 
     margin: 0;
     padding: 1em 0;
     width: 100%;
@@ -59,7 +50,7 @@ body {
 .nav-list li a {
     text-decoration: none;
     transition: transform 0.3s ease;
-    font-size: 1rem; /* scalable font size */
+    font-size: 1rem;
     color: #f5e4f7;
     padding: 0.5em 1em;
     display: inline-block;
@@ -317,7 +308,7 @@ body {
     max-width: none;
     min-width: none;
     width: 70%;
-    height: 650px;
+    height: 700px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -337,7 +328,7 @@ body {
 }
 
 .Fav-Quote input[type="submit"] {
-     display: block;
+     display: inline;
   margin: 0 auto; /* centers the button */
   color: #f5e4f7;
   background-color: #b965c2;
