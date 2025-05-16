@@ -37,28 +37,30 @@
     </div>
 
     <div class="bangtan-story">
-        <h1>Share Your Favorite BTS Quotation</h1>
-        <form action="" class="Fav-Quote">
-            <div class="field">
-                <label for="Username">Username</label>
-                <input name="Username"  type="text"  id="Username">
-            <br>
-                <label for="memeber">Which member does this quote belong to?</label>
-                <select name="Member's Quote" id="member">
-                    <option value="" disabled selected>Select a member</option>
-                    <option value="RM">RM</option>
-                    <option value="Jin">Jin</option>
-                    <option value="SUGA">SUGA</option>
-                    <option value="J-Hope">J-Hope</option>
-                    <option value="Jimin">Jimin</option>
-                    <option value="V">V</option>
-                    <option value="Jungkook">Jungkook</option>
-                </select>
-            <br>
-                <label for="fave-quote">Your Favorite Quotation</label><br><br>
-                <textarea id="fave-quote" name="fave-quote" rows="20" cols="60" required></textarea>
-                <br>
-                <input type="submit" value="Send">
+        <form action="" class="Fav-Quote detail-p">
+  <div class="field">
+    <label for="Username">Username</label>
+    <input name="Username" type="text" id="Username" />
+
+    <label for="member">Which member does this quote belong to?</label>
+    <select name="memberQuote" id="member" required>
+      <option value="" disabled selected>Select a member</option>
+      <option value="RM">RM</option>
+      <option value="Jin">Jin</option>
+      <option value="SUGA">SUGA</option>
+      <option value="J-Hope">J-Hope</option>
+      <option value="Jimin">Jimin</option>
+      <option value="V">V</option>
+      <option value="Jungkook">Jungkook</option>
+    </select>
+
+    <label for="fave-quote">Your Favorite Quotation</label>
+    <textarea id="fave-quote" name="faveQuote" rows="10" cols="60" required></textarea>
+
+    <input type="submit" value="Send" class="submit-btn" />
+  </div>
+</form>
+
             </div>
 
         </form>
