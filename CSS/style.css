@@ -28,17 +28,28 @@ body {
     height: auto;
 }
 
+/* Homepage - Navigation */
+.Navigation {
+    background-color: #b965c2;
+    color: white;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+/* Flex container for nav items */
 .nav-list {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* allows wrapping on small screens */
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    margin: 0px;
-    padding: 0;
+    gap: 2em; /* scalable spacing */
+    margin: 0;
+    padding: 1em 0;
     width: 100%;
-    height: 50px;
+    height: auto;
 }
 
 .nav-list li {
@@ -48,19 +59,24 @@ body {
 .nav-list li a {
     text-decoration: none;
     transition: transform 0.3s ease;
-    font-size: 16px;
-
+    font-size: 1rem; /* scalable font size */
+    color: #f5e4f7;
+    padding: 0.5em 1em;
+    display: inline-block;
 }
 
+/* Link states */
 .nav-list li a:link,
-.nav-list li a:visited .nav-list li a:active {
+.nav-list li a:visited,
+.nav-list li a:active {
     color: #f5e4f7;
 }
 
+/* Hover effect */
 .nav-list li a:hover {
-    font-size: 20px;
+    font-size: 1.2rem;
     text-decoration: underline;
-    transform: translateY (-5px);
+    transform: translateY(-5px); /* removed space between Y and (-5px) */
 }
 
 /* Homepage _ Search-bar */
