@@ -327,15 +327,22 @@ body {
     font-size: large;
 }
 
-.Fav-Quote input[type="submit"] {
-  margin: 0 auto; /* centers the button */
-  color: #f5e4f7;
-  background-color: #b965c2;
-  border: 2px solid #f5e4f7;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 8px;
-  cursor: pointer;
+.submit-btn {
+    background-color: #fff;
+    color: #b965c2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto 0 auto; /* center it */
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #f5e4f7;
+    color: #7a2d8a;
 }
 
 .Fav-Quote .field textarea {
