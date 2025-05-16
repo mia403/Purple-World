@@ -308,7 +308,7 @@ body {
     max-width: none;
     min-width: none;
     width: 70%;
-    height: 900px;
+    height: auto;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 30px;
