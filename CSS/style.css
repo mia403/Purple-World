@@ -302,19 +302,13 @@ body {
     padding: 15px;
 }
 
-/* Add Favorite Quotation _ Form */
+/* Form Container */
 .bangtan-story {
     background-color: #b965c2;
-    max-width: none;
-    min-width: none;
     width: 70%;
-    height: auto;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin: 20px auto 30px auto;
     padding: 15px;
     border-radius: 15px;
-
 }
 
 .bangtan-story h1 {
@@ -322,11 +316,38 @@ body {
     text-align: center;
 }
 
+/* Label styles */
 .Fav-Quote label {
     color: #f5e4f7;
     font-size: large;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: left;
 }
 
+/* Input + Select styles */
+.Fav-Quote input[type="text"],
+.Fav-Quote select {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+}
+
+/* Textarea centered */
+.Fav-Quote .field textarea {
+    display: block;
+    margin: 15px auto;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Submit button centered */
 .submit-btn {
     background-color: #fff;
     color: #b965c2;
@@ -336,7 +357,7 @@ body {
     font-weight: bold;
     cursor: pointer;
     display: block;
-    margin: 20px auto 0 auto; /* center it */
+    margin: 20px auto;
     transition: all 0.3s ease;
 }
 
@@ -345,12 +366,6 @@ body {
     color: #7a2d8a;
 }
 
-.Fav-Quote .field textarea {
-  display: block;      
-  margin: 0 auto;
-  width: 80%;
-  height: 50%;
-}
 
 
 
